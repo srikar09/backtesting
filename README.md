@@ -1,9 +1,9 @@
 # Backtesting
 
-This is a simplified backtesting code to test out a 60 40 portfolio allocation that is split between sotcks and gold. The allocation changes dynamically between a portfolio of all stock to a portfolio that is split between stock and gold.
+This is a simplified code to backtest a dynamically changing 60/40 portfolio allocation that is split between sotcks and a secondary asset that is negatively correlated to stocks , which in this case is gold
 
-The portfolio allocation of gold increases once the CAPE ratio increases beyond a certain threshold, thereby indicating that the stocks are overvalued
+The portfolio allocation changes from all stock to a 60/40 split betwwen stocks and gold once the CAPE ratio increases beyond a certain threshold, indicating that the stocks are overvalued
 
 Conversely, the gold position is liquidated and all the proceeds are invested into stocks (S&P 500) once the CAPE ratio decreases beyond a certain threshold, thereby indicating that the stocks are valued fairly 
 
-The goal of this back test is to prove or disporve the effectiveness of using a secondary asset that is negatively correlated with stocks to counterweigh exposure to stocks during times when stocks could be highly overvalued with respect to their fundementals
+The goal of this back test is to prove or disprove the effectiveness of using a secondary asset that is negatively correlated with stocks to counterweigh exposure to stocks during times when stocks could be highly overvalued with respect to their fundementals
