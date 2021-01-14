@@ -6,4 +6,4 @@ The portfolio allocation of gold increases once the CAPE ratio increases beyond 
 
 Conversely, the gold position is liquidated and all the proceeds invested into stocks once the CAPE ratio decreases beyond a certain threshold, thereby indicating that the stocks are valued fairly 
 
-The goal of this back test is to prove or disporve the effectiveness of using a secondary asset that is negatively correlated with stocks to counterweigh exposure to stocks during times of high stocks could be overvalued with respect to their fundementals
+The goal of this back test is to prove or disporve the effectiveness of using a secondary asset that is negatively correlated with stocks to counterweigh exposure to stocks during times when stocks could be highly overvalued with respect to their fundementals
