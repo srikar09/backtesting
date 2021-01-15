@@ -9,8 +9,8 @@ Conversely, the gold position is liquidated and all the proceeds are invested in
 The goal of this back test is to prove or disprove the effectiveness of using a secondary asset that is negatively correlated with stocks to counterweigh exposure to stocks during times when stocks could be highly overvalued with respect to their fundementals
 
 
-Findings: 
 
+Findings: 
 without accounting for transaction costs , capital gains taxes and accrued dividends 100,000 dollars invested in S&P 500 in 1927  would equal 1,427,783 in 2020. On the other hand, 100,000 dollars invested in 1927 with this strategy would equal 2,295,093 dollars in 2020 
 
 
