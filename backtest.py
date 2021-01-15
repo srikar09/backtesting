@@ -12,6 +12,7 @@ Created on Thu Jan 14 01:24:08 2021
 #  4) There are only two possible assets to allocate to. No cash holdings 
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 capeindex_file_path = "C:/Users/14694/Documents/CAPEIndex.csv"
 spindex_file_path = "C:/Users/14694/Documents/SP500.csv"
@@ -98,10 +99,19 @@ def calculate_sp_benchmark(previous_month_sp_benchmark_value, previous_month_sp_
     current_sp_value = current_sp_amount *  current_month_sp_benchmark_price
     return current_sp_value
         
+
+
 # when CAPE ratio falls below 14 liqudate gold holdings and buy stocks (stocks are fairvalued)
 # when CAPE ratio goes above 23 liquidate 40 percent of portfolio 
 #    and buy gold (Stocks are overvalued), results in a 60/40 split
 # starting with 100,000
 
-portfolio_performance =  backtest_strategy(23, 14, 0.4, 100000)
-portfolio_performance.plot()
+portfolio =  backtest_strategy(23, 14, 0.4, 100000)
+
+sp_benchmark = portfolio['sp_benchmark']
+portfolio_performance = portfolio['portfolio_value']
+
+plt.plot( sp_benchmark, label= 'S&P 500 benchmark')
+plt.plot( portfolio_performance, label = 'Portfolio performance')
+
+plt.legend()
