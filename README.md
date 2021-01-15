@@ -13,6 +13,7 @@ The goal of this back test is to prove or disprove the effectiveness of using a 
 Findings: 
 
 without accounting for transaction costs , capital gains taxes and accrued dividends 100,000 dollars invested in S&P 500 in 1927  would equal 1,427,783 in 2020. On the other hand, 100,000 dollars invested in 1927 with this strategy would equal 2,295,093 dollars in 2020 
+Also , these returns are real returns not nominal returns. Inflation has been subtracted from these returns 
 
 
 
